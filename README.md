@@ -20,14 +20,8 @@ These projects were developed during my internship (within 17 days).
 ##  [First visualizationPage](https://github.com/cicero06/MonthlyReport/tree/main/religion%20of%20largest%2020%20countries)
 
 ##  [RandomPhotos](https://github.com/cicero06/MonthlyReport/tree/main/random%20photos)
-##  [SignUpForm](https://github.com/cicero06/MonthlyReport/upload)
-##  [SignUpForm](https://github.com/cicero06/MonthlyReport/upload)
-##  [SignUpForm](https://github.com/cicero06/MonthlyReport/upload)
-##  [SignUpForm](https://github.com/cicero06/MonthlyReport/upload)
-##  [SignUpForm](https://github.com/cicero06/MonthlyReport/upload)
 
 
-## Description
 
+## You can access the projects from the links above.
 
-Provide a detailed overview of your project, including its purpose, functionality, and any relevant information. Explain why the project exists and what problem it solves. Use this section to grab the reader's attention and convince them to continue reading.
