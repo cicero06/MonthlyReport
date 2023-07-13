@@ -1,2 +1,2 @@
 # MonthlyReport
-these project have developed in 17 days throuhgout  my internship 
+These projects were developed during my internship (within 17 days).
