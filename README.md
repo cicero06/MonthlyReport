@@ -2,10 +2,8 @@
 These projects were developed during my internship (within 17 days).
 
 
-## Table of Contents
+## PROJECTS
 
-- [Project Title](#project-title)
-- [Description](#description)
 
 
 
