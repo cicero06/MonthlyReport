@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+
+<div class="container" id="container">
+    <!--sidebar start-->
+
+    <div class="side-bar">
+        <div class="nav-heading clickable">
+            <img class="dash-image" src="./icons/view-dashboard.png" alt="dashboard icon">Dashboard</div>
+        <div class="nav-bar">
+            <ul class="nav-list nav-styles">
+                <li><img class="simple-icon" src="./icons/home.png" alt="home icon">Home</li>
+                <li><img class="simple-icon" src="./icons/card-account-details.png" alt="account icon">Profile</li>
+                <!-- <li><img class="simple-icon" src="./icons/message-reply.png" alt="message icon">Messages</li>
+                <li><img class="simple-icon" src="./icons/clock-time-three.png" alt="history icon">History</li>
+                
+                <li><img class="simple-icon" src="./icons/account-group.png" alt="communities icon">Communities</li>
+
+                -->
+                <li><img class="simple-icon" src="./icons/note-multiple (1).png" alt="tasks icon">Tasks</li>
+            </ul>
+        </div>
+        <div class="setting-bar">
+            <ul class="setting-list nav-styles">
+                <li><img class="simple-icon" src="./icons/cog.png" alt="settings icon">Settings</li>
+                <li><img class="simple-icon" src="./icons/help-box.png" alt="support icon">Support</li>
+                <li><img class="simple-icon" src="./icons/shield-check.png" alt="privacy icon">Privacy</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--sidebar end-->
+
+
+    <!--header start-->
+
+    <div class="header">
+        <div class="top-header">
+            <div class="search-bar">
+                <div class="search-img clickable">
+                   <input type="image" class="search-icon" form="myform" src="./icons/magnify.svg">
+                </div>
+                <!-- make it an input matching the form -->
+                <form id="myform" method="get" action="#">
+                    <input class="search-input" type="text" id="searchresult" name="searchresult" value=""><br><br>
+                </form>
+            </div>
+            <div class="profile-bar">
+                <div class="clickable"><img class="bell-icon" src="./icons/bell-ring-outline.svg" alt="notification icon"></div>
+                <div class="clickable"><img class="profile-pic-small" src="./icons/user.png" alt="profile picture"></div>
+                <div class="clickable">Hüseyin Deniz</div>
+            </div>
+        </div>
+
+        <div class="bottom-header">
+            <div class="profile-display">
+                <div class="clickable"><img class="profile-pic-large" src="./icons/user.png" alt="profile picture"></div>
+                <div class="name-greeting">
+                    <div class="greeting">Hi there,</div>
+                    <div class="name">Hüseyin Deniz (@hsyndnz)</div>
+                </div>
+            </div>
+
+
+
+            <div class="make-post">
+
+
+                <button class="head-button clickable" onclick=" new_buttons()">New</button>
+
+
+
+
+                <button class="head-button clickable" onclick="upload_button()">Upload</button>
+                <button class="head-button clickable" onclick="share_buttons()">Share</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--header end-->
+
+
+    <!--main start-->
+
+    <div class="main">
+
+
+
+        <div class="project-display" id="projects_Container">
+        <div class="project-section-heading">Your Projects</div>
+            <div class="projects-container">
+
+                <div class="project">
+                    <div class="project-text">
+                        <div class="project-heading">Super Cool Project</div>
+                        <div class="project-description">Lorem Ipsum nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+                    </div>
+                    <div class="project-interact-container">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post"></li>
+                            <li class="interact-option"><img src="./icons/source-fork.svg" alt="fork project"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-text">
+                        <div class="project-heading">Less Cool Project</div>
+                        <div class="project-description">Lorem Ipsum laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    </div>
+                    <div class="project-interact-container">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post"></li>
+                            <li class="interact-option"><img src="./icons/source-fork.svg" alt="fork project"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-text">
+                        <div class="project-heading">Impossible App</div>
+                        <div class="project-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                    </div>
+                    <div class="project-interact-container">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post"></li>
+                            <li class="interact-option"><img src="./icons/source-fork.svg" alt="fork project"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-text">
+                        <div class="project-heading">Easy Peasy App</div>
+                        <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                    <div class="project-interact-container">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post"></li>
+                            <li class="interact-option"><img src="./icons/source-fork.svg" alt="fork project"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-text">
+                        <div class="project-heading">Ad Blocker</div>
+                        <div class="project-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    </div>
+                    <div class="project-interact-container">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post"></li>
+                            <li class="interact-option"><img src="./icons/source-fork.svg" alt="fork project"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-text">
+                        <div class="project-heading">Money Maker</div>
+                        <div class="project-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    </div>
+                    <div class="project-interact-container">
+                        <ul class="interactions">
+                            <li class="interact-option"><img src="./icons/star-plus-outline.svg" alt="favorite post"></li>
+                            <li class="interact-option"><img src="./icons/eye-plus-outline.svg" alt="save post"></li>
+                            <li class="interact-option"><img src="./icons/source-fork.svg" alt="fork project"></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="announcements-section">
+            <div class="announcements-section-heading">Announcements</div>
+            <div class="announcements-container">
+                <div class="announcement-heading">Site Maintenance</div>
+                <div class="announcement-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <hr>
+                <div class="announcement-heading">Community Share Day</div>
+                <div class="announcement-description">Ut enim ad minim veniam, quis nostrud exercitation.</div>
+                <hr>
+                <div class="announcement-heading">Updated Privacy Policy</div>
+                <div class="announcement-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</div>
+            </div>
+        </div>
+
+
+
+
+        <div class="trending-profiles-section">
+            <div class="announcements-section-heading">Trending</div>
+            <div class="trending-container">
+                <div class="trending-profile">
+                    <div><img class="profile-pic-small" src="./icons/Screen Shot 2022-03-25 at 4.54.47 PM.png" alt="trending profile image"></div>
+                    <div class="trending-profile-info">
+                        <div class="trending-username">@tegan</div>
+                        <div class="trending-project">World Peace Builder</div>
+                    </div>
+                </div>
+                <div class="trending-profile">
+                    <div><img class="profile-pic-small" src="./icons/user.png" alt="trending profile image"></div>
+                    <div class="trending-profile-info">
+                        <div class="trending-username">@hsyndnz</div>
+                        <div class="trending-project">Super Cool Project</div>
+                    </div>
+                </div>
+                <div class="trending-profile">
+                    <div><img class="profile-pic-small" src="./icons/Screen Shot 2022-03-25 at 4.58.19 PM.png" alt="trending profile image"></div>
+                    <div class="trending-profile-info">
+                        <div class="trending-username">@kendall</div>
+                        <div class="trending-project">Life Changing App</div>
+                    </div>
+                </div>
+                <div class="trending-profile">
+                    <div><img class="profile-pic-small" src="./icons/068e542866ad718fad29978646f6998c.jpeg" alt="trending profile image"></div>
+                    <div class="trending-profile-info">
+                        <div class="trending-username">@alex</div>
+                        <div class="trending-project">No Traffic Maker</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popUppage" id="popUppage">
+            <form action="/app.js" id="form">
+            <span class="close">x</span>
+            <legend > add new project</legend>
+            
+                
+                <div id="textInput">
+                    <p> <input type="text" id="name" 
+                     name="name" placeholder="what is name of the project ?" >
+                    </p>
+
+                    <p> <input type="text" id="heading" name="heading" >
+                       </p>
+
+                    <p> <input type="text" id="description"  name="description"
+                        placeholder="what you want to say for your project?" >
+                       </p>
+
+                       <button type="button" class="add_newproject" id="add_btn">
+                        add 
+                       </button>
+                       <button type="reset">reset</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="charts-Container" >
+
+        <div id="chart"></div>
+        <div id="chart2"></div>
+
+        <div id="chart3">  </div>
+
+        <div id="chart4"></div>
+
+
+
+        <div id="chart5">
+            <div class="container-fluid pt-5 pb-3">
+                <div class="pt-5 container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-4 text-center">
+            
+                           
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-8 text-center">
+                            <div class="wrapper">
+            
+                                <div class="map-image">
+                                    <div class="points mapsmall-circle1 anim animate">
+            
+            
+                                    </div>
+                                    <div id="main">
+                                        <img src="https://i.ibb.co/kQWz90r/clip.png" alt="flag">
+                                        <p style="font-weight:bold">HEAD OFFICE</p>
+                                        <p>6715 Mesa Ridge Pkwy, Fountain, CO 80817, USA</p>
+                                        <p>+1 719-382-0449</p>
+            
+                                    </div>
+
+
+
+                                    <div class="points mapsmall-circle2">
+            
+                                    </div>
+                                    <div class="points mapsmall-circle3"></div>
+                                    <div class="points mapsmall-circle4"></div>
+                                    <div class="points mapsmall-circle5"></div>
+                                    <div class="points mapsmall-circle6"></div>
+                                    <div class="points mapsmall-circle7"></div>
+                                    <div class="points mapsmall-circle8"></div>
+                                    <div class="points mapsmall-circle9"> </div>
+                                    <div class="points mapsmall-circle10"></div>
+                                    <div class="points mapsmall-circle11"></div>
+                                    <div class="points mapsmall-circle12"></div>
+                                    <div class="points mapsmall-circle13"></div>
+            
+                                    <div class="points mapsmall-circle14"></div>
+                                    <div class="points mapsmall-circle15"></div>
+                                    <div class="points mapsmall-circle16"></div>
+                                    <div class="points mapsmall-circle17"></div>
+                                    <div class="points mapsmall-circle18 anim animate"></div>
+                                    <div id="turkey">
+                                        <img src="https://i.ibb.co/kQWz90r/clip.png" alt="flag">
+                                        <p style="font-weight:bold">HEAD OFFICE</p>
+                                        <p>6715 Mesa Ridge Pkwy, Fountain, CO 80817, USA</p>
+                                        <p>+1 719-382-0449</p>
+            
+                                    </div>
+
+            
+            
+            
+                                    <svg id="my-svg">
+            
+            
+            
+                                        <path id="p_one" d="M147 149 C147, 149  137,92 197 100  " stroke-width="1" fill="none"></path>
+                                        <path id="p-two" d="M147 149 C147, 149 234,110 322 164  " stroke-width="1" fill="none"></path>
+                                        <path id="p-three" d="M131,185 C131,185 310,36 344,83 " stroke-width="1" fill="none"></path>
+                                        <path id="p-four" d="M194 313 C194 313 300,50 332 119 " stroke-width="1" fill="none"></path>
+                                        <path id="p-five" d="M324 167 C324 167 393,122 420 184  " stroke-width="1" fill="none"></path>
+                                        <path id="p-six" d="M153 100 C153 100 159,47 234 72   " stroke-width="1" fill="none"></path>
+                                        <path id="p-seven" d="M187 122 C187 122 309,0 456 124      " stroke-width="1" fill="none"></path>
+                                        <path id="p-eight" d="M244 257 C244 257 310,15 590 91      " stroke-width="1" fill="none"></path>
+                                        <path id="p-nine" d="M242 261 C242 261 383,161 568 274  " stroke-width="1" fill="none"></path>
+                                        <path id="p-ten" d="M133 90 C133 90 310,15 486 150  " stroke-width="1" fill="none"></path>
+                                        <path id="p-eleven" d="M131 184 C147, 149 234,197 194 309  " stroke-width="1" fill="none"></path>
+                                        <path id="p-tewelve" d="M146 139 C147, 149 86,188 141 181 " stroke-width="1" fill="none"></path>
+            
+            
+                                        <use class="bg" href="#p_one"></use>
+                                        <use class="move" href="#p_one"></use>
+            
+                                        <use class="bg" href="#p-two"></use>
+                                        <use class="move" href="#p-two"></use>
+            
+                                        <use class="bg" href="#p-three"></use>
+                                        <use class="move" href="#p-three"></use>
+            
+                                        <use class="bg" href="#p-four"></use>
+                                        <use class="move" href="#p-four"></use>
+            
+                                        <use class="bg" href="#p-five"></use>
+                                        <use class="move" href="#p-five"></use>
+            
+                                        <use class="bg" href="#p-six"></use>
+                                        <use class="move" href="#p-six"></use>
+                                        <use class="bg" href="#p-seven"></use>
+                                        <use class="move" href="#p-seven"></use>
+            
+            
+                                        <use class="bg" href="#p-eight"></use>
+                                        <use class="move" href="#p-eight"></use>
+            
+                                        <use class="bg" href="#p-nine"></use>
+                                        <use class="move" href="#p-nine"></use>
+            
+                                        <use class="bg" href="#p-ten"></use>
+                                        <use class="move" href="#p-ten"></use>
+                                        <use class="bg" href="#p-eleven"></use>
+                                        <use class="move" href="#p-eleven"></use>
+                                        <use class="bg" href="#p-tewelve"></use>
+                                        <use class="move" href="#p-tewelve"></use>
+            
+                                    </svg>
+            
+            
+            
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+        <div id="chart6"></div>
+        <div id="chart7"></div>
+
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+ 
+    
+
+    <!--main end-->
+
+</div>
+    <script src="app.js"></script>
+
+</body>
+</html>
