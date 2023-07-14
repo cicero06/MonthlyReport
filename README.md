@@ -3,8 +3,8 @@
 
 
 
-![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
---                                    
+![cbiko-logo-tr](<a href="https://www.freepik.com/icon/indium_5937033#position=1&page=1&term=linkdin+icon+smal+size&fromView=search">Icon by Freepik</a>)
+--                                    <a href="https://www.freepik.com/icon/indium_5937033#position=1&page=1&term=linkdin+icon+smal+size&fromView=search">Icon by Freepik</a>
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
