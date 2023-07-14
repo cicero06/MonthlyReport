@@ -1,12 +1,9 @@
 
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][[contributors-url](https://github.com/cicero06)]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![][]][[](https://github.com/cicero06)]
+[![MIT License][]][]
+[![LinkedIn][]][() [https://www.linkedin.com/in/huseyin-deniz-201885170/]]
 
 
 ![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
