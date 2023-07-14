@@ -20,7 +20,8 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About The Internship</a>
+      <li><a href="#about-the-project">About The Projects</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -37,7 +38,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+  </li> </ol>
 </details>
 
 
