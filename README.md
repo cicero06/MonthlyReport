@@ -10,7 +10,7 @@
 
 
 ![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
---                                     INTERNSHIP
+--                                    
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -18,16 +18,7 @@
   <h3 align="center">INTERNSHIP</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    These projects were developed during my internship (within 17 days).
   </p>
 </div>
 
@@ -52,7 +43,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
