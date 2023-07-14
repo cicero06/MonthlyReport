@@ -1,0 +1,129 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(to right top, #292d33, #4a5357, #717c7c, #9ea7a1, #d1d3ca);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+header{
+    padding: 1em;
+    box-shadow: 0px 0px 15px white;
+    
+}
+header h1{
+    margin-top: 0;
+    color: black;
+    font-size: 3em;
+    text-shadow: 0px 0px 5px green;
+    
+}
+.seacrh-area{
+    width: 420px;
+    margin: 0 auto;
+    display: flex;
+  
+}
+.seacrh-area input{
+    width: 70%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-weight: bold;
+}
+.seacrh-area button{
+    width: 30%;
+    font-weight: bold;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: orange;
+    cursor: pointer;
+}
+.seacrh-area button:hover{
+    background-color: rgb(251, 183, 58);
+}
+
+.seacrh-area button:active{
+    transform: scale(0.95);
+}
+.seacrh-area input,
+.seacrh-area button{
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+/* Main Area */
+.temp{
+    padding: 1em;
+    margin: 2em auto;
+    width: 250px;
+    height:  320px;
+}
+
+.day{
+    box-shadow: 0px 0px 15px white;
+    padding: 1em;
+    min-width: 240px;
+    height: 310px;
+    border-radius: 6px;
+    /* background-color: rgb(157, 157, 157); */
+    background-color: gray;
+}
+.city-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 36px;
+}
+
+.day-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-column-gap: 4em;
+    grid-row-gap: 2em;
+    padding: 1em;
+    justify-content: center;
+
+}
+.day:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.checkboxes{
+  
+    font-weight: bold;
+    width: 700px;
+    margin: 1em auto;
+
+    text-align: center;
+}
+.keys{
+    font-weight: bold;
+    font-size: 1.15em;
+    text-shadow: 0 0 5px white;
+}
+.flex{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+}
+.situation{
+    font-weight: bold;
+    color: blue;
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px 0;
+}
+/* .temp{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+} */
