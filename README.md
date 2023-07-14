@@ -2,9 +2,7 @@
 <a name="readme-top"></a>
 
 [![][]][[](https://github.com/cicero06)]
-[![MIT License][]][]
-[![LinkedIn][![LinkedIn_logo]()
-]][() [https://www.linkedin.com/in/huseyin-deniz-201885170/]]
+
 
 
 ![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
