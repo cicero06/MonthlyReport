@@ -9,11 +9,11 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
+
 --                                     INTERNSHIP
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">![Uploading cbiko-logo-tr.svg…]()
+<div align="center">![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
 
   <a href="">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
