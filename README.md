@@ -1,11 +1,6 @@
 
 <a name="readme-top"></a>
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 ![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
@@ -76,7 +71,8 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React][React.js]][[React-url](https://react.dev/)]
-* 
+* ![image](https://github.com/cicero06/MonthlyReport/assets/75733835/ba2acb58-f6e7-442d-a0c1-79415b35c078)
+
 * FOR React app
 * ### Prerequisites &
 ### Installation
@@ -106,11 +102,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## Getting Started for react app 
-
-
-
-
--- PROJECTS
 
 
 ![dashboard](https://github.com/cicero06/MonthlyReport/assets/75733835/8649f4ea-b6a8-4a3a-9150-e13fe0b8a1f9)
