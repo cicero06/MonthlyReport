@@ -1,5 +1,13 @@
 
 <a name="readme-top"></a>
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 ![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/caa44d92-95cb-44f7-bb69-f77e52d42470)
 --                                    
 <!-- PROJECT LOGO -->
@@ -67,10 +75,24 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* 
 * [![React][React.js]][[React-url](https://react.dev/)]
 * 
-* [![html][React.js]][React-url]
+* FOR React app
+* ### Prerequisites &
+### Installation
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  
+  ```
+  and
+  ```
+  npm run dev     
+  ```
+  in teminal 
+
+
 * [![React][React.js]][React-url]
 * [![React][React.js]][React-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
@@ -86,19 +108,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ## Getting Started for react app 
 
 
-### Prerequisites
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  
-  ```
-  
-### Installation
-
-npm install and 
-# MonthlyReport
-These projects were developed during my internship (within 17 days).
 
 -- PROJECTS
 
