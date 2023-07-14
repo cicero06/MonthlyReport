@@ -71,7 +71,8 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React][React.js]][[React-url](https://react.dev/)]
-* ![image](https://github.com/cicero06/MonthlyReport/assets/75733835/ba2acb58-f6e7-442d-a0c1-79415b35c078)
+* ![indium_5937033](https://github.com/cicero06/MonthlyReport/assets/75733835/243a627d-b89f-44e1-9ef1-86cc82413822)
+
 
 * FOR React app
 * ### Prerequisites &
