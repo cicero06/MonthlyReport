@@ -3,8 +3,8 @@
 
 
 
-![cbiko-logo-tr](<a href="https://www.freepik.com/icon/indium_5937033#position=1&page=1&term=linkdin+icon+smal+size&fromView=search">Icon by Freepik</a>)
---                                    <a href="https://www.freepik.com/icon/indium_5937033#position=1&page=1&term=linkdin+icon+smal+size&fromView=search">Icon by Freepik</a>
+![cbiko-logo-tr](https://www.cbiko.gov.tr/uploads/2022/06/cbiko-logo-tr.svg)
+--                                  
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
