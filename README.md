@@ -3,7 +3,7 @@
 
 [![][]][[](https://github.com/cicero06)]
 [![MIT License][]][]
-[![LinkedIn][![LinkedIn_logo](https://github.com/cicero06/MonthlyReport/assets/75733835/0e712b2a-c240-4000-acfe-4d6a0199faf5)
+[![LinkedIn][![LinkedIn_logo]()
 ]][() [https://www.linkedin.com/in/huseyin-deniz-201885170/]]
 
 
