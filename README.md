@@ -64,6 +64,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * ![indium_5937033](https://github.com/cicero06/MonthlyReport/assets/75733835/243a627d-b89f-44e1-9ef1-86cc82413822)
 
 
+
+https://github.com/cicero06/MonthlyReport/assets/75733835/8e22bca2-703b-4096-90ac-da03fbe429a7
+
+
 * FOR React app
 * ### Prerequisites &
 ### Installation
