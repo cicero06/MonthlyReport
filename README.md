@@ -2,9 +2,8 @@
 <a name="readme-top"></a>
 
 
+![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/502659dd-f82a-48d8-bac6-ad16f0a2c483)
 
-![cbiko-logo-tr]![cbiko-logo-tr](https://github.com/cicero06/MonthlyReport/assets/75733835/502659dd-f82a-48d8-bac6-ad16f0a2c483)
-()
 --                                  
 <!-- PROJECT LOGO -->
 <br />
