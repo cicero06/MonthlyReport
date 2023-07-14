@@ -18,6 +18,8 @@ These projects were developed during my internship (within 17 days).
 
 ##  [RandomPhotos](https://github.com/cicero06/MonthlyReport/tree/main/random%20photos)
 ##  [React Dashboard Page]( https://github.com/cicero06/MonthlyReport/tree/main/react-dashboard-last%20task)
+![](https://github.com/cicero06/MonthlyReport/assets/75733835/89c4f075-5447-4bbd-a294-30c7a0e71a99)
+
 
 
 
