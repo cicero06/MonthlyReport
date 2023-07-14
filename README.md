@@ -17,6 +17,8 @@ These projects were developed during my internship (within 17 days).
 ##  [First visualizationPage](https://github.com/cicero06/MonthlyReport/tree/main/religion%20of%20largest%2020%20countries)
 
 ##  [RandomPhotos](https://github.com/cicero06/MonthlyReport/tree/main/random%20photos)
+##  [React Dashboard Page]( https://github.com/cicero06/MonthlyReport/tree/main/react-dashboard-last%20task)
+
 
 
 
